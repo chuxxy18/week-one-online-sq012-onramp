@@ -88,16 +88,15 @@ div.relative {
 
 ul {
   list-style-type: none;
-  margin: 40px 0 0 10px;
+  margin: 30px 0 0 10px;
   padding: 0px;
 }
 
 li a {
-  display: block;
-  list-style-type: none;
+  display: flex;
   width: 100px;
   margin-top: 10px;
-  padding: 10px;
+  padding: 5px 0 0 5px;
   text-decoration: none;
   transition: 0.3ws;
   font-size: 14px;
@@ -117,9 +116,19 @@ li a:active {
   transform: translateY(1px);
 }
 
+.list-name {
+  height: 25px;
+  margin: 5px 0 0 10px;
+}
+
+.list-icon {
+  width: 25px;
+  height: 25px;
+  filter: contrast();
+}
+
 .bottom-link {
   position: relative;
-  display: block;
   margin-top: 200px;
 }
 
